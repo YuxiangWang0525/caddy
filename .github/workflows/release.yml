@@ -96,7 +96,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-go${{ matrix.go }}-release
 
-    # GoReleaser will take care of publishing those artifacts into the release
+    # GoReleaser will take care of publishing those artifacts into the release -buildtype
     - name: Run GoReleaser
       uses: goreleaser/goreleaser-action@v2
       with:
