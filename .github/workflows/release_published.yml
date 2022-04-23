@@ -1,6 +1,6 @@
 name: Release Published
 
-# Event payload: https://developer.github.com/webhooks/event-payloads/#release
+# Event payload: https://developer.github.com/webhooks/event-payloads/#release H1
 on:
   release:
     types: [published]
